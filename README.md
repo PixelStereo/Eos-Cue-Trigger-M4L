@@ -9,3 +9,5 @@ It will trig a cue on a selected cuelist from a midi noteon
 #4 If you want to trig several cues in a clip, just separate each message with a space, and create several note on in the clip. e.g. : 2-33 3-44.   
 
 The note does not matter.
+
+You can also address a submaster, just add S before. e.g. : S14 will trig the submaster at full at note on, and cut it down at note off.
